@@ -1,0 +1,892 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/******************************Manage State **************************************/
+.wprdts-btn-conaiter{
+	width: 50%;
+	float: left;
+}
+
+.wprdts-search-box-container{
+	width: 40%;
+	float: right;
+}
+
+.wprdts-search-box-container span{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.wprdts-btn-conaiter .wprdts-search-box-container{
+	
+}
+
+.wprdts-form-body{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	
+}
+
+.wprdts-form-body-header, .wprdts-form-data {
+	border-bottom: 1px solid #ddd;
+	width: 98%;
+	overflow: hidden;
+}
+
+.wprdts-form-body-header{
+	clear: both;
+	margin-top: 50px;
+}
+
+.wprdts-form-body-header>span{
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+	padding: 7px 0px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.wprdts-form-body-header>span a{
+	text-decoration: none;
+}
+
+.wprdts-form-body-header>span:first-child{
+	width: 4%;
+}
+
+.wprdts-form-body-header>span:nth-child(){
+	text-align: left;
+}
+
+.wprdts-form-data>span{
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+	padding: 7px 0px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.wprdts-form-data>span a{
+	text-decoration: none;
+}
+
+.wprdts-form-data>span:first-child{
+	width: 4%;
+	text-align: center;
+}
+
+.wprdts-form-data>span:nth-child(){
+	text-align: left;
+}
+
+.add-state-form-container{
+	width: 50%;
+	margin: 30px auto;	
+}
+
+.add-state-form-container .form-element{
+	width: 100%;
+	text-align: left;
+}
+
+h3.empty-message{
+	width: 100%;
+	text-align: center;
+}
+
+.add-state-form-container .form-element span{
+	display: block;
+	width: 50%;	
+}
+
+.add-state-form-container .form-element select{
+	width: 100%;
+}
+
+.edit-state-form-container{
+	width: 60%;
+	margin: 0px auto;
+}
+
+.edit-state-form-container .form-element{
+	width: 100%;	
+}
+
+.edit-state-form-container .form-element span{
+	display: block;
+	width: 50%;	
+}
+
+.success-message{
+	background: #eaf7d9 url("../img/success.png") no-repeat scroll 10px center;
+    border: 1px solid #bbdf8d;
+    border-radius: 5px;
+    color: #555555;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 33px;
+}
+
+.failed-message{
+	background: #ffd1d1 url("../img/warning.png") no-repeat scroll 10px center;
+    border: 1px solid #f8acac;
+    border-radius: 5px;
+    color: #555555;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 33px;
+}
+
+.field_set{
+    border: solid 1px #080808;
+	padding: 20px;
+}
+
+
+
+/**************************************Manage City*****************************************/
+.wprdts-city-form-data span{
+	
+}
+
+.add-city-form-container .form-element{
+	clear: both;
+	display: table;
+}
+
+.wprdts-city-form-body-header, .wprdts-city-form-data {
+	border-bottom: 1px solid #ddd;
+	width: 98%;
+	overflow: hidden;
+}
+
+.wprdts-city-form-body-header {
+	clear: both;
+	margin-top: 50px;
+}
+
+.wprdts-city-form-body-header>span{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	padding: 7px 0px;
+	font-size: 15px;
+	font-weight: 700;	
+}
+
+.wprdts-city-form-body-header>span:nth-child(2){
+	width: 32%;	
+}
+
+.wprdts-city-form-body-header>span a{
+	text-decoration: none;
+}
+
+.wprdts-city-form-body-header>span:first-child{
+	width: 4%;
+}
+
+.wprdts-city-form-body-header>span:nth-child(){
+	text-align: left;
+}
+
+
+.wprdts-city-form-data>span{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	padding: 7px 0px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.wprdts-city-form-data>span:nth-child(2){
+	width: 32%;
+}
+
+.wprdts-city-form-data>span a{
+	text-decoration: none;
+}
+
+.wprdts-city-form-data>span:first-child{
+	width: 4%;
+	text-align: center;
+}
+
+.add-city-form-container .form-element span {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.edit-city-form-container .form-element span {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.edit-city-form-container .form-element span select {
+	width: 100%;
+}
+
+.add-city-form-container .form-element span .wprdts-currency-symbol{
+	font-size: 12px;
+	display: inline-block;
+}
+
+.add-city-form-container .form-element span input{
+	padding-left: 10px !important;
+} 
+
+.add-city-form-container .form-element span .wprdts-currency-symbol, .add-city-form-container .form-element span .wprdts-add-city-price{
+	
+	
+} 
+
+
+//**************************************Manage Quote*****************************************//
+
+.wprdts-quote-form-data span{
+	
+}
+.wprdts-quote-form-body-header, .wprdts-quote-form-data {
+	border-bottom: 1px solid #ddd;
+	width: 98%;
+	overflow: hidden;
+}
+
+.wprdts-quote-form-body-header {
+	clear: both;
+	margin-top: 50px;
+}
+
+.wprdts-quote-form-body-header>span{
+	display: inline-block;
+	width: 11%;
+	text-align: center;
+	padding: 7px 0px;
+	font-size: 15px;
+	font-weight: 700;	
+}
+
+.wprdts-quote-form-body-header>span a{
+	text-decoration: none;
+}
+
+.wprdts-quote-form-body-header>span:first-child{
+	width: 4%;
+}
+
+.wprdts-quote-form-body-header>span:nth-child(){
+	text-align: left;
+}
+
+.wprdts-quote-form-data > span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
+    text-align: center;
+    vertical-align: top;
+    width: 11%;
+    word-wrap: break-word;
+}
+
+.wprdts-quote-form-data>span a{
+	text-decoration: none;
+}
+
+.wprdts-quote-form-data>span:first-child{
+	width: 4%;
+	text-align: center;
+}
+
+
+
+//********************************Manage Language************************************************//
+
+
+.wprdts-manage-language-container{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wprdts-manage-language-form-container {
+	display: block;
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wprdts-manage-language-form-header span, .wprdts-manage-language-form-container .wprdts-manage-language-form-element span{
+	width: 30%;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.wprdts-manage-language-form-element span input{
+	width: 90%;
+}
+
+.wprdts-manage-language-submit{
+	display: block;
+	width: 50% !important;
+	margin: 20px 0px !important;
+}
+
+
+//*************************************Manage Quote**********************************************//
+
+.wprdts-quote-details-container{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wprdts-quote-item{
+	width: 100%;
+}
+
+.wprdts-quote-item span{
+	width: 100%;
+}
+
+.wprdts-quote-label{
+	width: 40%;
+}
+
+.wprdts-quote-separator{
+	width: 15%;
+}
+
+.wprdts-quote-value{
+	width: 40%;
+}
+
+
+//*******************************Widget**********************************************//
+
+.wprdts-widget-form-container{
+	width: 90%;
+	clear: both;
+	display: block;
+	margin: 0px auto;    background-color: #FAFAFA;	padding: 10px 40px 60px;	border: 1px solid GREY;
+}
+
+.wprdts-widget-form-header, .wprdts-widget-form-footer{
+	width: 90%;
+	clear: both;
+	display: block;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.wprdts-widget-price-box{
+	text-align: center;
+	font-size: 18px;
+}
+.wprdts-widget-price-box span{}
+.wprdts-widget-form-container .wprdts-widget-form-body{}
+.wprdts-widget-form-body .wprdts-widget-form-element{
+	display: block;
+	
+}
+
+.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-form-label{
+	font-size: 78%;
+}
+
+.wprdts-widget-form-container .wprdts-form-part-two{
+	clear: both;
+	display: none;
+}
+
+.wprdts-widget-form-container .wprdts-form-part-two .wprdts-widget-form-element{
+	display: block;
+	width: 90%;
+	padding: 5px;
+	margin: 0px auto;
+}
+
+.wprdts-widget-form-container .wprdts-form-return-info{
+	clear: both;
+	display: none;
+}
+
+.wprdts-widget-form-element{
+	display: block;
+	width: 90%;
+	padding: 5px;
+	margin: 15px auto;
+}
+
+.wprdts-widget-form-element span{
+	display: block;
+}
+
+.wprdts-widget-form-element span label{
+	display: block;
+	font-size: 15px;
+}
+
+.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field input,select{
+
+}
+
+.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field select{
+	width: 95%;	
+}
+
+.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field input{
+
+}
+
+.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field input[type="radio"]{
+	width: 10%;
+	display: inline-block;
+	height: 17px;
+}
+
+.wprdts-form-label, .wprdts-widget-field input[type="radio"]{
+	display: inline-block;
+}
+
+.wprdts-widget-form-footer .wprdts-widget-price-box{
+	
+}
+
+.wprdts-input-dropdown-container{
+	width: 96%;
+	padding: 0px;
+	border: 1px solid  	#696969;
+	display: none;
+}
+
+.wprdts-input-dropdown-container ul{
+	margin: 0;
+    padding: 0;
+}
+
+.wprdts-input-dropdown-container ul li{
+	background: #1e90ff none repeat scroll 0 0;
+    color: #fff;
+    list-style: outside none none;
+    text-align: center;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.wprdts-input-dropdown-container ul li:last-child{
+	border-bottom: 0px;
+}
+
+.wprdts-widget-field select, input[type="text"], #wprdts-widget-form-return-trip-time{
+	padding-left: 35px !important;	
+	width: 100%;
+}
+
+.wprdts-widget-field select.wprdts-widget-form-trip-time-hour, .wprdts-widget-field select.wprdts-widget-form-trip-time-minute, .wprdts-widget-field select.wprdts-widget-form-trip-time-am-pm{
+	width: 31% !important;
+	display: inline-block;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.wprdts-widget-field .wprdts-widget-form-return-trip-time-hour, .wprdts-widget-field .wprdts-widget-form-return-trip-time-minute, .wprdts-widget-field .wprdts-widget-form-return-trip-time-am-pm {
+    display: inline-block;
+    padding-left: 0;
+    text-align: center;
+    width: 31%;
+}
+
+#wprdts-widget-form-submit, #wprdts-widget-form-continue {
+    background: rgb(202, 60, 60) none repeat scroll 0 0;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.wprdts-widget-discount-box{
+	font-size: 18px;
+}
+
+#wprdts-widget-form-pickup-location-container, #wprdts-widget-form-dropoff-location-container{
+	display: none;
+}
+
+
+
+/***********************************General Setting Page***********************************/
+
+.wprdts-general-setting-container{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wprdts-setting-form-element-container .wprdts-setting-form-element>imput{
+	width: 91% !important;
+}
+
+.wprdts-setting-form-element-container>div{
+	display: inline-block;
+	margin: 8px 0px;
+	font-size: 14px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.wprdts-setting-form-label{
+	width: 40%;
+}
+
+.wprdts-setting-form-label label{	
+	line-height: 27px;
+
+}
+
+.wprdts-setting-form-separator{
+	width: 5%;	padding-left: 30px;
+}
+#wp-wprdts-setting-form-confirm-email-admin-wrap, #wp-wprdts-setting-form-confirm-email-user-wrap, #wp-wprdts-setting-form-confirm-message-user-wrap{    float: right !important;    position: relative;    width: 90% !important;}
+.wprdts-setting-form-element{
+	width: 50%;
+}
+
+#wprdts-discount-message-tag{
+	font-size: 13px;
+	float: right;
+}
+
+/**Widget form icon**/
+.wprdts-widget-field{
+	position: relative;
+}
+
+.wprdts-widget-form-field, .wprdts-widget-form-pickup-location, #wprdts-widget-form-dropoff-location-pre{
+	padding-left: 35px !important;
+}
+
+.wprdts-widget-form-trip-type:before {
+	  position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f072";
+}
+
+.wprdts-widget-form-passenger:before{
+	position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f234";
+}
+
+.wprdts-widget-form-luggage:before{
+	position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f1b2";
+}
+
+.wprdts-widget-form-vehicle-type:before{
+	position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f1b9";
+}
+
+.wprdts-widget-form-seat-infant:before{
+	position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f007";
+}
+
+.wprdts-widget-form-seat-booster:before{
+	position: absolute;
+	  font-family: 'FontAwesome';
+	  top: 5px;
+	  left: 10px;
+	  content: "\f1ae";
+}
+
+span.icon-place:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f041";
+	font-size: 15px;
+}
+
+span.icon-calender:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f073";
+	font-size: 15px;
+}
+
+span.icon-clock:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f017";
+	font-size: 15px;
+}
+
+span.icon-plane:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f072";
+	font-size: 15px;
+}
+
+span.icon-person:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f007";
+	font-size: 15px;
+}
+
+span.icon-email:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f0e0";
+	font-size: 15px;
+}
+
+span.icon-phone:before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 5px;
+	left: 10px;
+	content: "\f095";
+	font-size: 15px;
+}
+
+
+/**End of WIdget for icon**/
+
+
+/***Progress Bar Container**/
+.progressbar-container{
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.progressbar-container .progress-item{
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: top;
+	width: 32%;
+	margin-left: 0px;
+	padding-left: 3%;
+	text-align: center;
+}
+
+.progressbar-container .progress-item .icon-container i{
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid #425155;
+	border-radius: 50%;
+	background: #fff;
+	padding-top: 10px;
+	position: relative;
+	z-index: 100;
+}
+
+.progressbar-container .progress-item .progress-title{
+	display: block;
+	word-wrap: break-word;
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.bar {
+    background: #425155 none repeat scroll 0 0;
+    height: 15px;
+    left: 32px;
+    position: absolute;
+    top: 25%;
+    width: 82%;
+}
+
+.step-active i{
+	color: #fff !important;
+	background: #425155 !important;
+}
+
+.step-complete i{
+	font-family: 'FontAwesome' !important;
+	content: "\f00c" !important;
+}
+
+.step-active .progress-title{
+	color: #000 !important;
+}
+
+
+
+/**End of progrerss bar**/
+
+
+.wprdts-setting-form-element>.wprdts-currency-symbol{
+	width: 8%; 
+	vertical-align: bottom;
+	float: left;
+	margin-top: 5px;
+}
+
+.wprdts-setting-form-text{
+	width: 90%;
+	float: right;
+}
+
+.wprdts-setting-form-radio{}
+
+.wprdts-setting-form-submit-container{
+	width: 20%;
+}
+
+#wprdts-setting-form-submit{
+	font-size: 15px;
+	margin: 0px auto;
+}
+
+#paypal-buton{
+	cursor: pointer;
+	display: block;
+	text-align: center;
+}
+
+.wprdts-checkout-form-container{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wprdts-confirmation-message-page{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 15px;	
+	padding-bottom: 40px;
+}
+
+
+/***Setting page fix**/
+.wprdts-setting-form-element-container .wprdts-setting-form-element>imput{
+	width: 91% !important;
+	padding-left: 10px;
+}
+
+/****************************Preloader************************/
+#wprdts-widget-form{
+	position: relative;
+}
+
+#wprdts-preloader-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background: #000;
+	opacity: 0.4;
+	display: none;
+}
+
+#wprdts-preloader-container img{
+	position: relative;
+	top: 40%;
+	left: 40%;
+	z-index: 99999;
+	display: block;
+}
+
+
+
+/****Radio button***/
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span { 
+	background: url('../img/switch.gif') repeat-x; 
+	display: block; 
+	float: left;
+ }
+ 
+.cb-enable span, .cb-disable span {
+	line-height: 30px;
+	display: block; 
+	background-repeat: no-repeat;
+	font-weight: bold; 
+	
+}
+
+.cb-enable span { 
+	background-position: left -90px; 
+	padding: 0px 50px; 
+}
+
+.cb-disable span { 
+	background-position: right -180px;
+	padding: 0px 50px; 
+}
+
+.cb-disable.selected { 
+	background-position: 0 -30px; 
+}
+
+.cb-disable.selected span { 
+	background-position: right -210px; 
+	color: #fff; 
+}
+
+.cb-enable.selected { 
+	background-position: 0 -60px; 
+}
+
+.cb-enable.selected span { 
+	background-position: left -150px; 
+	color: #fff; 
+}
+
+.switch label { 
+	cursor: pointer;
+ }
+ 
+.switch input { 
+	display: none;
+ }
+ 
+ .switch{
+	padding-left: 11%;
+    padding-top: 10px;
+ }
+
+
+
+
+

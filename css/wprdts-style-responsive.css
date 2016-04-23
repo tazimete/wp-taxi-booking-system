@@ -1,0 +1,247 @@
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 630px) and (max-width : 860px) {
+
+	.wprdts-btn-conaiter, .wprdts-search-box-container{
+		width: 90%;
+		display: block;
+		clear: both;
+		margin: 0px auto;
+		text-align: center;
+	}
+	
+	.wprdts-btn-conaiter>span{
+		margin-right: 5px;
+	}
+	
+	.wprdts-search-box-container span{
+		display: inline-block;
+		width: 50%;
+		margin-top: 30px;
+	}
+	
+	.wprdts-search-box-container span input{
+		float: left;
+		width: 133%;
+		
+	}
+	
+	.add-state-form-container .form-element {
+		width: 100%;
+	}
+	
+	.add-state-form-container .form-element span {
+		width: 100%;
+	}
+	
+	.add-state-form-container .form-element select {
+		width: 90%;
+	}
+	
+	.edit-state-form-container .form-element span {
+		width: 100%;
+	}
+	
+	.edit-state-form-container .form-element span .wprdts-state-input-text{
+		width: 100%;
+	}
+	
+	
+	.wprdts-quote-form-body-header > span a {
+		font-size: 11px;
+	}
+	
+	.wprdts-quote-form-data > span {
+		font-size: 11px;
+	}
+	
+	.wprdts-manage-language-form-element span input {
+		font-size: 13px;
+	}
+	
+	.wprdts-setting-form-element {
+		width: 53%;
+	}
+	
+	.wprdts-widget-field select, input[type="text"] {
+		font-size: 13px;
+	}
+	
+	.wprdts-setting-form-text, .wprdts-widget-field select, input[type="text"] {
+		font-size: 13px;
+		width: 85%;
+	}
+	
+	#wp-wprdts-setting-form-confirm-email-admin-wrap, #wp-wprdts-setting-form-confirm-email-user-wrap, #wp-wprdts-setting-form-confirm-message-user-wrap {
+		width: 85% !important;
+	}
+	
+	.wprdts-setting-form-element > .wprdts-currency-symbol {
+		margin-top: 8px;
+	}
+	
+	.wprdts-setting-form-label {
+		width: 35%;
+	}
+	
+	body#tinymce p{
+		font-size: 13px !important;
+	}
+		
+	
+
+}
+
+
+/**Mini Device**/
+@media only screen  /* and (min-width : 499px)*/ and  (max-width : 629px) {
+	
+	.wprdts-btn-conaiter, .wprdts-search-box-container{
+		width: 90%;
+		display: block;
+		clear: both;
+		margin: 0px auto;
+		text-align: center;
+	}
+	
+	.wprdts-btn-conaiter>span{
+		margin-right: 5px;
+	}
+	
+	.wprdts-search-box-container span{
+		display: inline-block;
+		width: 50%;
+		margin-top: 30px;
+	}
+	
+	.wprdts-btn-conaiter span a{
+		font-size: 11px !important;
+	}
+	
+	.wprdts-search-box-container span input {
+		float: left;
+		width: 120%;
+		padding: 3px;
+	}
+	
+	.add-state-form-container .form-element {
+		width: 100%;
+	}
+	
+	.add-state-form-container .form-element span {
+		width: 100%;
+	}
+	
+	.add-state-form-container .form-element select {
+		width: 90%;
+	}
+	
+	.edit-state-form-container .form-element span {
+		width: 100%;
+	}
+	
+	.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field input, select {
+		width: 90%;
+	}
+	
+	/**Manage quote**/
+	.wprdts-quote-form-body-header > span a {
+		font-size: 8px;
+	}
+	
+	.wprdts-quote-form-data > span {
+		font-size: 9px;
+		word-wrap: break-word;
+		vertical-align: top;
+	}
+	
+	.wprdts-search-box-container span a{
+		padding: 4px 14px !important;
+	}
+	
+	.wprdts-manage-language-form-header span, .wprdts-manage-language-form-container .wprdts-manage-language-form-element span {
+		font-size: 11px;
+		vertical-align: top;
+		word-wrap: break-word;
+		margin-right: 7px;
+	}
+	
+	.wprdts-widget-field select, input[type="text"] {
+		font-size: 11px;
+		padding: 3px;
+	}
+	
+	.wprdts-manage-language-form-element span input.button{
+		padding: 2px 14px !important;
+	}
+	
+	.wprdts-setting-form-separator{
+		display: none !important;
+	}
+	
+	.wprdts-setting-form-element-container > div {
+		display: block;
+		font-size: 14px;
+		margin: 5px auto;
+		overflow: hidden;
+		padding: 0;
+		vertical-align: middle;
+		width: 90%;
+	}
+	
+	.wprdts-widget-field select, input[type="text"] {
+		float: left;
+		font-size: 13px;
+		padding: 6px;
+	}
+	
+	.wprdts-setting-form-element-container {
+		margin: 20px 0;
+	}
+	
+	.wprdts-widget-field select, input[type="text"] {
+		width: 100%;
+	}
+	
+	.wprdts-setting-form-text {
+		float: left;
+		width: 100%;
+	}
+	
+	#wprdts-setting-form-additional-price-one, #wprdts-setting-form-additional-price-two, #wprdts-setting-form-price-per-km{
+		width: 91%;
+	}
+	
+	#wp-wprdts-setting-form-confirm-email-admin-wrap, #wp-wprdts-setting-form-confirm-email-user-wrap, #wp-wprdts-setting-form-confirm-message-user-wrap {
+		width: 100% !important;
+	}
+	
+	.wprdts-city-form-body-header > span a {
+		font-size: 13px;
+	}
+	
+	.wprdts-city-form-data > span {
+		font-size: 11px;
+	}
+	
+	.add-state-form-container {
+		margin: 30px auto;
+		width: 80%;
+	}
+	
+	.add-state-form-container .form-element select {
+		width: 100%;
+	}
+	
+	.edit-state-form-container {
+		width: 80%;
+	}
+	
+	.wprdts-widget-form-body .wprdts-widget-form-element .wprdts-widget-field input, select {
+		width: 100%;
+	}
+
+	
+}
+
+
